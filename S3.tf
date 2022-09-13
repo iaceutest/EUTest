@@ -24,5 +24,6 @@ resource "aws_s3_bucket" "app_server" {
   logging {
     target_bucket = "pavantestbucket"
     target_prefix = "log/"
+    
     }
 }
